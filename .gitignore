@@ -21,4 +21,5 @@ ocdapi/settings/production.py
 hosts.production
 
 # Heroku
-.env
+/.env
+/static/

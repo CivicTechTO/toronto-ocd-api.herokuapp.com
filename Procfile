@@ -1,1 +1,1 @@
-web: python manage.py runserver $PORT
+web: gunicorn ocdapi.wsgi --log-file -
