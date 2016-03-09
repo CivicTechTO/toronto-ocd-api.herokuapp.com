@@ -1,0 +1,27 @@
+certifi==2015.11.20.1
+contextlib2==0.5.1
+dj-database-url==0.4.0
+Django==1.9.2
+django-appconf==1.0.1
+-e git+https://github.com/sunlightlabs/django-locksmith.git@a124d364e6306785b59c606ecf262814c32cf04b#egg=django_locksmith-origin_python3
+DjangoRestless==0.0.10
+elasticsearch==1.9.0
+-e git+https://github.com/opencivicdata/imago@d36c2c5b60450e36b5c477cce535456ba50a956f#egg=imago-master
+jsonfield==0.9.23
+opencivicdata-divisions==2015.4.21
+opencivicdata-django==0.7.2
+psycopg2==2.6.1
+-e git+https://github.com/opencivicdata/pupa.git@da14675f00c7d83c30219b5beb24576112a93939#egg=pupa-master
+pyelasticsearch==1.4
+pyshp==1.2.3
+pytz==2015.7
+raven==5.10.2
+-e git+https://github.com/opennorth/represent-boundaries.git@3a0392c76853f1002fa6a1fa9cf9035cf8104b92#egg=represent_boundaries-0.7.4
+requests==2.9.1
+scrapelib==1.0.0
+simplejson==3.8.2
+six==1.10.0
+urllib3==1.14
+validictory==1.0.1
+-e git+https://github.com/sunlightlabs/waterfall.git@974bebca43c185433b7116812fb15a1337cb4d25#egg=waterfall-master
+wheel==0.24.0

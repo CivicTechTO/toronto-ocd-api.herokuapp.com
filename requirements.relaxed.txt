@@ -1,0 +1,20 @@
+Django>=1.8
+psycopg2
+pyelasticsearch
+django-appconf
+pyshp
+raven!=4.1
+dj-database-url
+opencivicdata-divisions
+DjangoRestless
+
+-e git+https://github.com/opencivicdata/imago@master#egg=imago
+
+-e git+https://github.com/opencivicdata/pupa.git#egg=pupa
+
+# represent-boundaries
+-e git+https://github.com/opennorth/represent-boundaries.git#egg=boundaries
+
+-e git+https://github.com/sunlightlabs/django-locksmith.git@python3#egg=django-locksmith
+
+-e git+https://github.com/sunlightlabs/waterfall.git#egg=waterfall
