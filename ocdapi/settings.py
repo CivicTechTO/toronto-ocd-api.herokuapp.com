@@ -177,5 +177,3 @@ IMAGO_BOUNDARY_MAPPINGS = {
                          },
 
 }
-
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'

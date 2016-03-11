@@ -7,7 +7,6 @@ raven!=4.1
 dj-database-url
 opencivicdata-divisions
 DjangoRestless
-whitenoise
 gunicorn
 
 -e git+https://github.com/opencivicdata/imago@master#egg=imago

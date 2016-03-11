@@ -26,4 +26,3 @@ urllib3==1.14
 validictory==1.0.1
 -e git+https://github.com/sunlightlabs/waterfall.git@974bebca43c185433b7116812fb15a1337cb4d25#egg=waterfall-master
 wheel==0.24.0
-whitenoise==2.0.6
