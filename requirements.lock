@@ -6,6 +6,7 @@ django-appconf==1.0.1
 -e git+https://github.com/sunlightlabs/django-locksmith.git@a124d364e6306785b59c606ecf262814c32cf04b#egg=django_locksmith-origin_python3
 DjangoRestless==0.0.10
 elasticsearch==1.9.0
+gunicorn==19.4.5
 -e git+https://github.com/opencivicdata/imago@d36c2c5b60450e36b5c477cce535456ba50a956f#egg=imago-master
 jsonfield==0.9.23
 opencivicdata-divisions==2015.4.21
