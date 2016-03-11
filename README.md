@@ -19,6 +19,22 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+Heroku
+------
+
+* Requires `make` command. (Run without arguments for task help)
+* Requires the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+* Assumes the opencivicdata database is [populated][ocd-getting-started] and named `pupa`
+  (relates to `Makefile`).
+
+```
+workon ocdapi
+heroku create myocdapi
+heroku buildpacks:set https://github.com/ddollar/heroku-buildpack-multi.git
+make heroku-deploy
+make heroku-pg-push
+```
+
 What is this?
 -------------
 
@@ -26,3 +42,5 @@ This repo is essentially just a Django project for deployment- actual API code i
 
 * [boundaries](https://github.com/rhymeswithcycle/represent-boundaries) - backs GIS portion
 * [imago](https://github.com/opencivicdata/imago) - people, bills, events, etc.
+
+[ocd-getting-started]: http://docs.opencivicdata.org/en/latest/scrape/basics.html#getting-started

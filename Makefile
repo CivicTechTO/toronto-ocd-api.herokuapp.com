@@ -10,9 +10,9 @@ pip-lock: ## Lock packages into requirements.lock
 heroku-deploy: ## Deploy to Heroku via git-push
 	git push heroku toronto:master
 
-heroku-pg-push: ## Push the tor_councilmatic DB to Heroku
+heroku-pg-push: ## Push the opencivicdata DB to Heroku
 	heroku pg:reset DATABASE
-	heroku pg:push tor_councilmatic DATABASE
+	heroku pg:push pupa DATABASE
 
 .PHONY: help
 
