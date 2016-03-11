@@ -22,6 +22,8 @@ python manage.py runserver
 Heroku
 ------
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 * Requires `make` command. (Run without arguments for task help)
 * Requires the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 * Assumes the opencivicdata database is [populated][ocd-getting-started] and named `pupa`

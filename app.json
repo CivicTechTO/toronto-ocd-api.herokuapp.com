@@ -1,0 +1,20 @@
+{
+  "name": "Open Civic Data API",
+  "description": "A self-hosted version of ocd.datamade.com",
+  "website": "http://ocd.datamade.us/",
+  "repository": "https://github.com/CivicTechTO/toronto-ocd-api.herokuapp.com",
+  "success_url": "/jurisdictions",
+  "scripts": {
+    "postdeploy": "true"
+  },
+  "env": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/ddollar/heroku-buildpack-multi.git"
+    }
+  ]
+}
