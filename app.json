@@ -8,6 +8,7 @@
     "postdeploy": "true"
   },
   "env": {
+    "DISABLE_COLLECTSTATIC": "1"
   },
   "addons": [
     "heroku-postgresql"
