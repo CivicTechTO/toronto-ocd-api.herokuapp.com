@@ -4,7 +4,8 @@ pyelasticsearch
 django-appconf
 pyshp
 raven!=4.1
-dj-database-url
+# pupa constraint
+dj-database-url==0.3.0
 opencivicdata-divisions
 DjangoRestless
 gunicorn
