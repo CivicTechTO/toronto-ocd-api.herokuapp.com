@@ -71,6 +71,7 @@ INSTALLED_APPS = (
     'opencivicdata.apps.BaseConfig',
     'imago',
     'pupa',
+    'rest_framework',
 )
 if RAVEN_DSN:
     INSTALLED_APPS += ('raven.contrib.django.raven_compat',)
@@ -176,4 +177,9 @@ IMAGO_BOUNDARY_MAPPINGS = {
                           'ignore': None,
                          },
 
+}
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.AllowAny',),
+    'PAGE_SIZE': 10
 }
