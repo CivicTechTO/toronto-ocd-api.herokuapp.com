@@ -12,7 +12,7 @@ opencivicdata-divisions
 DjangoRestless
 gunicorn
 
--e git+https://github.com/opencivicdata/imago@master#egg=imago
+-e git+https://github.com/tor-councilmatic/imago@django-rest-framework#egg=imago
 
 -e git+https://github.com/opencivicdata/pupa.git#egg=pupa
 
