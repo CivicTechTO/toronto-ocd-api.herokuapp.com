@@ -182,7 +182,8 @@ IMAGO_BOUNDARY_MAPPINGS = {
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.AllowAny',),
-    'PAGE_SIZE': 10
+    'PAGE_SIZE': 10,
+    'URL_FIELD_NAME': 'ocd_url',
 }
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
