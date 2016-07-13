@@ -8,7 +8,7 @@ djangorestframework==3.3.3
 DjangoRestless==0.0.10
 elasticsearch==1.9.0
 gunicorn==19.6.0
--e git+https://github.com/tor-councilmatic/imago@0fc9e6114e047edf7862f6f6b19d4625d4a2b6e2#egg=imago-master
+-e git+https://github.com/tor-councilmatic/imago@3171eb502b6ded0545582f49b89a69e29456511d#egg=imago-master
 jsonfield==0.9.23
 opencivicdata-divisions==2015.4.21
 -e git+https://github.com/opencivicdata/python-opencivicdata-django@42bf463026a6b14a6f069c6db6dc974d11134b45#egg=opencivicdata_django-master
