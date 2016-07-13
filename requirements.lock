@@ -16,7 +16,7 @@ psycopg2==2.6.2
 -e git+https://github.com/opencivicdata/pupa.git@274cd0ddf9d550c5b20cd99d6d19720041d21222#egg=pupa-master
 pyelasticsearch==1.4
 pyshp==1.2.3
-pytz==2016.4
+pytz==2016.6
 raven==5.22.0
 -e git+https://github.com/opennorth/represent-boundaries.git@a9ff987505c27d6bb622d234243531fb09ac407e#egg=represent_boundaries-0.7.5
 requests==2.10.0
