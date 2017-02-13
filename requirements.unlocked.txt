@@ -1,4 +1,4 @@
-Django>=1.8
+Django>=1.8,<1.10
 psycopg2
 pyelasticsearch
 django-appconf
@@ -6,8 +6,7 @@ pyshp
 raven!=4.1
 # pupa constraint
 dj-database-url==0.3.0
-# @see https://github.com/opencivicdata/imago/issues/80#issuecomment-196545080
--e git+https://github.com/opencivicdata/python-opencivicdata-django@42bf463026a6b14a6f069c6db6dc974d11134b45#egg=opencivicdata-django
+-e git+https://github.com/opencivicdata/python-opencivicdata-django@master#egg=opencivicdata-django
 opencivicdata-divisions
 DjangoRestless
 gunicorn
