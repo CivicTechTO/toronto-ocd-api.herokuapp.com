@@ -8,7 +8,7 @@ django-appconf==1.0.2
 DjangoRestless==0.0.10
 elasticsearch==1.9.0
 gunicorn==19.6.0
--e git+https://github.com/opencivicdata/imago@b0cc9379eec02358e25e075b006e6682f9c5fb10#egg=imago
+-e git+https://github.com/tor-councilmatic/imago@47f4f5c275a5daf56de711a27bad1742e464a021#egg=imago
 jsonfield==0.9.23
 opencivicdata-divisions==2015.4.21
 -e git+https://github.com/opencivicdata/python-opencivicdata-django@40b537ba1e010618c28e76485ac18afdc3ce9998#egg=opencivicdata_django
@@ -20,7 +20,7 @@ pyparsing==2.1.10
 pyshp==1.2.10
 pytz==2016.10
 raven==5.32.0
--e git+https://github.com/opennorth/represent-boundaries.git@bfcb535c9eae9a6484c9236ece6b4bba4a3fe2bc#egg=represent_boundaries
+-e git+https://github.com/opennorth/represent-boundaries.git@e83b253ed8b7a2901140a9ca226675ed7b55c56d#egg=represent_boundaries
 requests==2.13.0
 scrapelib==1.0.0
 simplejson==3.10.0
